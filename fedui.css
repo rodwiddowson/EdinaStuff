@@ -1,0 +1,126 @@
+div.fedui {
+    background-color: #FFFFFF;
+    position: relative;
+    width: 840px;
+    height: 300px;
+}
+
+div.fedui div.container {
+	border: 2px #A40000 solid;
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+div.fedui div.leftpane {
+	border: 2px #A40000 solid;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 47%;
+    height: 90%;
+}
+
+div.fedui div.rightpane {
+	border: 2px #A40000 solid;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 47%;
+    height: 90%;
+    overflow: hidden;
+}
+
+div.fedui div.content{
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 0px;
+    margin:auto;
+    width:90%;
+}
+
+div.fedui img.splogo{
+    max-width: 95%;
+    max-height: 80%;
+}
+
+div.fedui #preferredIdP {
+	padding-top: 10px;
+	float: left;
+	width: 100%;
+}
+
+div.fedui #idpEntry {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	width: 98%;
+}
+
+div.fedui #idpSelect {
+	width: 98%;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+div.fedui #continueInput {
+	float: right;
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.fedui .buttonContainer {
+	width: 33%;
+	height: 80px;
+	float: left;
+}
+
+div.fedui a:link {
+	font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+
+div.fedui a:hover {
+	font-size: 12px;
+    color: #A40000;
+    text-decoration: underline;
+}
+
+div.fedui img, a { 
+	border: 0; 
+	color: #4E3125;
+	text-decoration: none;
+}
+
+/*
+div.fedui button, div {
+	height: 46px;
+	width: 80%;
+}
+*/
+
+/* TypeAhead styles */
+
+div.fedui div.dropdown {
+    -moz-box-sizing: border-box;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: small;
+    border: 1px solid black;
+    z-index: 6;
+    position: absolute;   
+    text-align: left;
+}
+
+div.fedui div.dropdown div {
+    background-color: white;
+    cursor: default;
+    padding: 0px 3px;
+}
+
+div.fedui div.dropdown div.current {
+    background-color: #3366cc;
+    color: white;
+}
